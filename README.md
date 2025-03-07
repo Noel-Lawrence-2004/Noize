@@ -9,7 +9,7 @@ A simple web-based tool that allows users to toggle and download separated stems
 - **Free & open-source** – accessible to anyone  
 
 ## 🌍 Live Demo
-🔗 [Check out the live site here!](https://your-username.github.io/your-repo-name/)  
+🔗 [Check out the live site here!](https://Noel-Lawrence-2004.github.io/Noize/)  
 
 ## 📥 How to Use?
 1. **Upload stems** (drums, vocals, etc.).  
