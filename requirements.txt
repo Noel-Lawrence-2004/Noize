@@ -1,5 +1,5 @@
 streamlit
-spleeter
+spleeter==2.1.0
 librosa
 matplotlib
 tensorflow
