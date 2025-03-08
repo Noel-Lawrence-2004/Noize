@@ -1,9 +1,9 @@
+pip install --upgrade pip setuptools wheel
 streamlit
 spleeter
 librosa
 matplotlib
-numpy
+numpy==1.23.5
 tensorflow
 ffmpeg-python
-setuptools
-wheel
+gunicorn
