@@ -2,7 +2,7 @@ streamlit
 spleeter
 librosa
 matplotlib
-numpy==1.23.5
+numpy==1.18.5
 tensorflow
 ffmpeg-python
 gunicorn
