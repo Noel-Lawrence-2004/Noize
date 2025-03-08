@@ -1,4 +1,3 @@
-pip install --upgrade pip setuptools wheel
 streamlit
 spleeter
 librosa
