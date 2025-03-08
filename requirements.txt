@@ -5,3 +5,5 @@ matplotlib
 numpy
 tensorflow
 ffmpeg-python
+setuptools
+wheel
