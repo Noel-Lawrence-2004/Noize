@@ -24,16 +24,17 @@ MODEL, DEVICE = load_model()  # Load once, use everywhere
 # Separate audio file into 5 stems
 def separate_audio(file_path):
     print(f" Loading file: {file_path}")  # Debug print
+
     wav, sr = torchaudio.load(file_path)
 
     if wav.shape[0] == 1:
         wav = torch.cat([wav, wav], dim=0)  # Convert mono to stereo
-
     wav = wav.to(DEVICE)
 
     # Ensure correct shape: (batch=1, channels, samples)
     wav = wav.unsqueeze(0)  # Adds batch dimension at the correct position
     
+
     # Apply Demucs model
     with torch.no_grad():
         sources = apply_model(MODEL, wav, device=DEVICE, shifts=1, split=True, overlap=0.1)
